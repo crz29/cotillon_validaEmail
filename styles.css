@@ -1,0 +1,221 @@
+:root{
+    font-size: 15px;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth;
+  
+}
+body{
+    background: url("imagenes/fondo-abstracto1.png");
+    background-attachment: fixed;
+}
+
+.centrado{
+    margin-top: 20rem;
+	margin: 0 auto;
+	padding: 0 0.8em;
+	text-align: center;
+	}
+
+@media screen and (min-width: 52rem){
+		.centrado{
+			max-width: 52rem;
+		}
+}
+#titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+ 
+#titulo h1{
+    margin-bottom: 0 0 0.5rem;
+    margin-top: 10rem;
+    padding: 2rem 0;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    font-family: 'Parisienne', cursive;
+}
+
+#titulo h2{
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.navegar a{
+    color: orange;
+    text-decoration: none;
+    background-color: rgb(224, 224, 165);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    
+}
+    
+a:hover{
+    color: rgb(119, 236, 24);
+}
+
+.container{
+    background: none;
+    margin-top: 4rem;
+    width: 50%;
+    
+}
+.flex-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.container img{
+    display: block;
+    width: 100%;
+}
+
+.nos{
+    background-color: none;
+    width: 70%;
+}
+
+#nosotros {
+    padding-top: 20rem;
+    color: rgb(70, 17, 218);
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#nosotros p{
+    margin-top: 1.2rem;
+}
+
+
+.primero{
+    margin-top: 20rem;
+}
+/*Desde acá el pie de página*/
+#contacto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    padding: 5rem;
+}
+#sugerencias h2{
+    color: gainsboro;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-style: normal;
+
+}
+#sugerencias h3{
+    color: gainsboro;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+
+#hh3{
+    background-color: white;
+    margin-top: 2rem;
+    color: rgb(218, 23, 23);
+    font-size: 1rem;
+    
+}
+
+.flex-seguinos{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    background-color: white;
+       
+}
+
+.flex-seguinos div{
+    width: 30%;
+    margin-bottom: 0.5rem;
+    background-color: white;
+
+}
+.flex-seguinos img{
+    display: block;
+    width: 20%;
+    text-align: center;
+    
+}
+@media (max-width:50rem) {
+    #titulo h1{
+        font-size: 1rem;
+    }
+    #titulo h2{
+        font-size: 0.8rem;
+    }
+    .navegar a{
+        font-size: 0.7rem;
+        padding: 0.4rem;
+        color: blue;
+    }
+    .container img{
+        width: 50%;
+        
+    }
+    #nosotros{
+        font-size: 0.7rem;
+        color: yellow
+
+    }
+    #sugerencias h2{
+        font-size: 0.8rem;
+    }
+    #sugerencias h3{
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    #hh3{
+        font-size: 1rem;
+    }
+    .flex-seguinos img{
+        width: 50%;
+        
+    }
+            
+}
+
+@media screen and (min-widht:70rem) {
+    #titulo{
+        font-size: 4rem;
+    }
+    .centrado nav{
+        font-size: 2.5rem;
+    }
+    #nosotros{
+        color: rgb(70, 17, 218);
+        font-size: 2rem;
+    }
+    #contacto{
+        padding: 6rem;
+    }
+    #sugerencias h2{
+        font-size: 1.5rem;
+    }
+    #sugerencias h3{
+        font-size: 1rem;
+    }
+    #hh3{
+        font-size: 1.3rem;
+    }
+
+    .flex-seguinos div{
+        padding: 0.1rem ;
+        width: 20%;
+        
+    }
+    
+    
+}

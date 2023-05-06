@@ -1,0 +1,42 @@
+*{
+    margin: 0 auto;
+    padding: 0 2rem;
+    scroll-behavior: smooth;
+  
+}
+body{
+    background:url("imagenes/wall-fondo.png");
+    background-attachment: fixed;
+}
+.hh1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 3rem;
+
+}
+.hh2{
+    color: blueviolet;
+    font-size: 2rem;
+    font-weight: bold; 
+
+}
+
+.pp1{
+    color: rgb(236, 19, 55);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width:52rem) {
+    .hh1{
+        font-size: 1.5rem;
+    }
+    .hh2{
+        font-size: 1rem;
+    }
+    .pp1{
+        font-size: 0.8rem;
+    }
+      
+}
+

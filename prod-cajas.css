@@ -1,0 +1,137 @@
+*{
+	font-size: 15px;
+}
+body{
+	background: url(imagenes/fondo-abstracto1.png);
+	margin: 0;
+	background-attachment: fixed;
+	
+}
+
+html{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.centrado{
+	margin: 0 auto;
+	padding: 0 0.8em;
+	text-align: center;
+	}
+
+@media screen and (min-width: 52rem){
+		.centrado{
+			max-width: 52rem;
+		}
+}
+
+	
+
+.titulo1 h1{
+	color: rgb(56, 36, 240);
+	margin: 0 0 1rem;
+	margin-top: 10rem;
+	padding: 1rem 0;
+	font-size: 4rem;
+	text-align: center;
+		
+}
+nav a{
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    color: orange;
+    justify-content: space-between;
+    padding: 0.8rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+nav a:hover{
+    color: greenyellow;
+        
+}
+.links{
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    
+}
+.tarjeta{
+	background: white;
+	margin-bottom: 2rem;
+	width: 33%;
+	box-shadow: rgb(241, 101, 7) 0 0.40rem;
+	border-radius: 1rem;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.tarjeta a{
+	color: rgb(192, 20, 235);
+	text-decoration: none;
+}
+
+.tarjeta a:hover{
+	color: rgb(141, 206, 43);
+}
+
+.tarjeta-content{  
+	padding: 1.4rem;
+	
+}
+
+.tarjeta-content h2{
+	margin-top: 0;
+	margin-bottom: .5rem;
+	font-weight: normal;
+	font-size: 2rem;
+}
+
+.tarjeta-content p{
+	font-size: 1rem;
+}
+
+figure{
+	margin: 0;
+}
+
+img{
+	display: block;
+	border:0;
+	width: 100%;
+	height: auto;
+}
+.precio{
+	display: block;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	background-color: bisque;
+	font-size: 1.2rem;
+	
+}
+
+@media (max-width:30rem) {
+	.titulo1 h1{
+		font-size: 0.8rem;
+	}
+	nav a{
+		font-size: 0.8rem;
+		padding: 0.2rem;
+	}
+	.tarjeta-content h2{
+		font-size: 0.8rem;
+		color: orange;
+	}
+	.tarjeta-content p{
+		font-size: 0.5rem;
+		color: rgb(155, 155, 45);
+	}
+	.precio{
+		font-size: 0.5rem;
+	}
+	
+}
